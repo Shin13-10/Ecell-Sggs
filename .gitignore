@@ -1,0 +1,68 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# database
+*.sqlite
+*.sqlite3
+*.db
+
+# uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# cache
+.cache
+.parcel-cache
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# AI & History
+.gemini/
+.agent/
+.history/
+.replit
+.config/
+prompt_history/
